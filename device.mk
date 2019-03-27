@@ -348,6 +348,10 @@ PRODUCT_PACKAGES += \
     Tag \
     android.hardware.secure_element@1.2.vendor
 
+# Notch mask
+PRODUCT_PACKAGES += \
+    NotchBarKiller
+
 # OMX
 PRODUCT_PACKAGES += \
     libOmxAacEnc \
