@@ -139,6 +139,7 @@ PRODUCT_PACKAGES += \
     audio.primary.kona \
     audio.r_submix.default \
     audio.usb.default \
+    libbluetooth_audio_session
 
 PRODUCT_PACKAGES += \
     BluetoothQti \
@@ -172,6 +173,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Audio Motodolby Config
 PRODUCT_COPY_FILES += \
     device/xiaomi/alioth/configs/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml
+# Bluetooth Ant+ Hal Deps
+BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
+PRODUCT_PACKAGES += \
+    AntHalService-Soong \
+    com.dsi.ant.antradio_library \
+    com.dsi.ant@1.0.vendor
 
 # Audio configs
 PRODUCT_COPY_FILES += \
@@ -190,7 +197,9 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.1.vendor \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor \
     vendor.qti.hardware.bluetooth_audio@2.1.vendor \
+    vendor.qti.hardware.bluetooth_dun@1.0.vendor \
     vendor.qti.hardware.btconfigstore@1.0.vendor \
+    vendor.qti.hardware.btconfigstore@2.0.vendor \
     vendor.qti.hardware.btconfigstore@2.0.vendor \
     vendor.qti.hardware.fm@1.0 \
     vendor.qti.hardware.fm@1.0.vendor
