@@ -181,6 +181,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libstdc++.vendor
 
+# Inherit Google Camera
+$(call inherit-product-if-exists, vendor/GoogleCamera/config.mk)
+
 # Component overrides
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/component-overrides.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/component-overrides.xml
