@@ -191,6 +191,8 @@ vendor/lib64/hw/com.dsi.ant@1.0-impl.so|965fce4107bcf6f9bc519acc56f96bdf7ec965c7
 
 # Bluetooth (FM) - from MIUI 13 RKQ1.211001.001 22.7.15
 vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so|3037e0bdf95a697318eb12056f8f1949b82aa55a
+vendor/lib/vendor.qti.hardware.fm@1.0.so
+vendor/lib64/vendor.qti.hardware.fm@1.0.so
 
 # Bluetooth (aptX) - from MIUI 13 RKQ1.211001.001 22.7.15
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so|1d83da21aeafa15ff327a59e761099910cfec563
