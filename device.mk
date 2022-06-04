@@ -167,15 +167,24 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
+    android.hardware.bluetooth.a2dp@1.0 \
+    android.hardware.bluetooth.a2dp@1.0.vendor \
+    android.hardware.bluetooth@1.1 \
     android.hardware.bluetooth@1.1.vendor \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor \
-    vendor.qti.hardware.btconfigstore@1.0.vendor
+    vendor.qti.hardware.bluetooth_audio@2.1.vendor \
+    vendor.qti.hardware.btconfigstore@1.0.vendor \
+    vendor.qti.hardware.btconfigstore@2.0.vendor \
+    vendor.qti.hardware.fm@1.0 \
+    vendor.qti.hardware.fm@1.0.vendor
 
 # Bluetooth QTI
 PRODUCT_PACKAGES += \
     libbthost_if \
     libbthost_if.vendor \
     libldacBT_bco.vendor
+
+$(call inherit-product, vendor/qcom/opensource/commonsys-intf/bluetooth/bt-system-opensource-product.mk)
 
 # Camera
 PRODUCT_PACKAGES += \
@@ -397,7 +406,11 @@ PRODUCT_COPY_FILES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    $(LOCAL_PATH) \
+    vendor/qcom/opensource/commonsys/packages/apps/Bluetooth \
+    vendor/qcom/opensource/commonsys/system/bt \
+    vendor/qcom/opensource/commonsys/system/bt/conf \
+    vendor/qcom/opensource/commonsys/system/bt/main
 
 # Telephony
 PRODUCT_PACKAGES += \
