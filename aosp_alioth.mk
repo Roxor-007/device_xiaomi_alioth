@@ -23,6 +23,9 @@ TARGET_SUPPORTS_QUICK_TAP := true
 # Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
+# PixelExperience stuffs
+CUSTOM_BUILD_TYPE := Kitagawa
+
 PRODUCT_NAME := aosp_alioth
 PRODUCT_DEVICE := alioth
 PRODUCT_MANUFACTURER := Xiaomi
