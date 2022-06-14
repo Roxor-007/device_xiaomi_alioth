@@ -9,3 +9,5 @@ git clone https://github.com/Roxor-007/packages_resources_devicesettings package
 git clone https://github.com/EmanuelCN/kernel_xiaomi_sm8250 -b staging kernel/xiaomi/sm8250; cd kernel/xiaomi/sm8250;git submodule init;git submodule update; cd ../../../;
 git clone https://gitlab.com/GhosutoX/aosp-clang-17 prebuilts/clang/host/linux-x86/clang-aosp;
 git clone https://gitlab.com/dark.phnx12/android_vendor_xiaomi_alioth-miuicamera.git vendor/xiaomi/alioth-miuicamera
+
+base64 -d device/xiaomi/alioth/configs/camera/secret > device/xiaomi/alioth/configs/camera/st_license.lic
