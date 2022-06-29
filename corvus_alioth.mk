@@ -26,6 +26,8 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 # Call recording
 TARGET_SUPPORTS_CALL_RECORDING := true
 
+# Inherit miui camera
+$(call inherit-product, vendor/miuicamera/config.mk)
 
 # Device identifier
 PRODUCT_NAME := corvus_alioth
