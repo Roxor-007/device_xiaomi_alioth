@@ -17,6 +17,9 @@ $(call inherit-product, device/xiaomi/alioth/device.mk)
 # Call recording
 TARGET_SUPPORTS_CALL_RECORDING := true
 
+# Inherit miui camera
+$(call inherit-product, vendor/miuicamera/config.mk)
+
 PRODUCT_NAME := corvus_alioth
 PRODUCT_DEVICE := alioth
 PRODUCT_MANUFACTURER := Xiaomi
