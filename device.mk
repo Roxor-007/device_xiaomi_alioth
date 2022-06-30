@@ -358,6 +358,10 @@ PRODUCT_PACKAGES += \
 # Notch mask
 PRODUCT_PACKAGES += \
     NotchBarKiller
+    
+# NFC configs
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/nfc/,$(TARGET_COPY_OUT_VENDOR)/etc)
 
 # OMX
 PRODUCT_PACKAGES += \
