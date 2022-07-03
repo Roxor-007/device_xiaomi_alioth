@@ -14,7 +14,8 @@ $(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 # Inherit from alioth device
 $(call inherit-product, device/xiaomi/alioth/device.mk)
 
-
+# Call recording
+TARGET_SUPPORTS_CALL_RECORDING := true
 
 PRODUCT_NAME := corvus_alioth
 PRODUCT_DEVICE := alioth
