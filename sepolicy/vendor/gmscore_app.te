@@ -1,0 +1,1 @@
+allow gmscore_app traced_producer_socket:sock_file { write }; 
