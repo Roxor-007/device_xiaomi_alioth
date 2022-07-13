@@ -1,7 +1,7 @@
 # Audio
 aaudio.hw_burst_min_usec=2000
 aaudio.mmap_exclusive_policy=2
-aaudio.mmap_policy=2
+aaudio.mmap_policy=1
 audio.offload.buffer.size.kb=32
 audio.offload.gapless.enabled=true
 persist.vendor.audio.delta.refresh=true
@@ -70,7 +70,7 @@ ro.vendor.audio.voice.change.youme.support=true
 ro.vendor.audio.zoom.support=true
 ro.vendor.audio.zoom.type=1
 tunnel.audio.encode=true
-vendor.audio.adm.buffering.ms=2
+vendor.audio.adm.buffering.ms=6
 vendor.audio.capture.enforce_legacy_copp_sr=true
 vendor.audio.dolby.ds2.enabled=false
 vendor.audio.dolby.ds2.hardbypass=false
@@ -119,7 +119,7 @@ vendor.audio.feature.wsa.enable=false
 vendor.audio.flac.sw.decoder.24bit=true
 vendor.audio.hal.output.suspend.supported=false
 vendor.audio.hw.aac.encoder=true
-vendor.audio.offload.buffer.size.kb=256
+vendor.audio.offload.buffer.size.kb=32
 vendor.audio.offload.gapless.enabled=true
 vendor.audio.offload.multiaac.enable=true
 vendor.audio.offload.multiple.enabled=false
@@ -135,7 +135,7 @@ vendor.audio.use.sw.ape.decoder=true
 vendor.audio.use.sw.mpegh.decoder=true
 vendor.audio.volume.headset.gain.depcal=true
 vendor.audio_hal.in_period_size=144
-vendor.audio_hal.period_multiplier=2
+vendor.audio_hal.period_multiplier=3
 vendor.audio_hal.period_size=192
 vendor.voice.path.for.pcm.voip=true
 
