@@ -1,6 +1,9 @@
 allow platform_app vendor_hal_soter_hwservice:hwservice_manager find;
 binder_call(platform_app, vendor_hal_soter_qti)
 
+allow platform_app proc_stat:file { open  read };
+allow platform_app zygote:unix_stream_socket { getopt };
+
 # Dolby Sepolicy
 allow platform_app hal_dms_hwservice:hwservice_manager find;
 allow platform_app hal_dms_default:binder { call transfer };
