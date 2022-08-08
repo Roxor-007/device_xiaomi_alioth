@@ -345,6 +345,10 @@ PRODUCT_COPY_FILES += \
     hardware/qcom-caf/sm8250/media/conf_files/kona/media_codecs_vendor_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_vendor_audio.xml \
     hardware/qcom-caf/sm8250/media/conf_files/kona/media_profiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles.xml
 
+# Media codecs configs
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/media/,$(TARGET_COPY_OUT_VENDOR)/etc)
+
 # Net
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0

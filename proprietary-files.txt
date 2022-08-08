@@ -109,7 +109,40 @@ vendor/firmware/wlanmdsp.otaupdate
 
 # Audio FX modules
 vendor/lib/soundfx/libasphere.so
+vendor/lib/soundfx/libhwdap.so
+vendor/lib/soundfx/libqcbassboost.so
+vendor/lib/soundfx/libqcreverb.so
+vendor/lib/soundfx/libqcvirt.so
 vendor/lib/soundfx/libshoebox.so
+vendor/lib/soundfx/libswdap.so
+vendor/lib/soundfx/libswgamedap.so
+vendor/lib/soundfx/libswvqe.so
+vendor/lib64/soundfx/libhwdap.so
+vendor/lib64/soundfx/libqcbassboost.so
+vendor/lib64/soundfx/libqcvirt.so
+vendor/lib64/soundfx/libshoebox.so
+vendor/lib64/soundfx/libswdap.so
+vendor/lib64/soundfx/libswgamedap.so
+vendor/lib64/soundfx/libswvqe.so
+
+# Audio OzoProcessing
+system_ext/lib/libav_ozodecoder.so:vendor/lib/libav_ozodecoder.so
+system_ext/lib/libav_ozoencoder.so:vendor/lib/libav_ozoencoder.so
+system_ext/lib/libozoaudio.so:vendor/lib/libozoaudio.so
+system_ext/lib/libozowidening.so:vendor/lib/libozowidening.so
+system_ext/lib/soundfx/libozoprocessing.so:vendor/lib/soundfx/libozoprocessing.so
+system_ext/lib64/libav_ozodecoder.so:vendor/lib64/libav_ozodecoder.so
+system_ext/lib64/libav_ozoencoder.so:vendor/lib64/libav_ozoencoder.so
+system_ext/lib64/libozoaudio.so:vendor/lib64/libozoaudio.so
+system_ext/lib64/libozowidening.so:vendor/lib64/libozowidening.so
+system_ext/lib64/soundfx/libozoprocessing.so:vendor/lib64/soundfx/libozoprocessing.so
+
+# Audio MiSound Libraries
+system_ext/etc/permissions/audiosphere.xml
+system_ext/framework/audiosphere.jar
+vendor/bin/audioflacapp
+vendor/bin/loadalgo
+vendor/lib/soundfx/libmisoundfx.so
 
 # Bluetooth - from MIUI 13 RKQ1.211001.001 22.7.15
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|1229a014f7204074e32d6e403a3fc1e148730e2a
@@ -572,6 +605,41 @@ vendor/lib64/vendor.display.color@1.3.so|d62b2d195dd11489f54c6566dbe8765e2884bb8
 vendor/lib64/vendor.display.color@1.4.so|1f7ba10ae1770692a5cced3421cdc0e951301995
 vendor/lib64/vendor.display.color@1.5.so|c990c7fef7d69cee083554312d2ebf8ce56d5e4b
 vendor/lib64/vendor.display.postproc@1.0.so|42b17608cb441af528513f257b75dfdf01cc6d45
+
+# Dolby
+system/lib/vendor.dolby.hardware.dms@2.0.so
+system/lib64/vendor.dolby.hardware.dms@2.0.so
+vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service
+vendor/etc/dolby/dax-default.xml
+vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc
+vendor/etc/vintf/manifest/manifest_vendor.dolby.hardware.dms.xml
+vendor/etc/media_codecs_dolby_audio.xml
+vendor/lib/libdapparamstorage.so
+vendor/lib/libdeccfg.so
+vendor/lib/libstagefrightdolby.so
+vendor/lib/vendor.dolby.hardware.dms@2.0.so
+vendor/lib64/libdapparamstorage.so
+vendor/lib64/libdeccfg.so
+vendor/lib64/libdlbdsservice.so
+vendor/lib64/libstagefrightdolby.so
+vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so
+vendor/lib64/vendor.dolby.hardware.dms@2.0.so
+
+# Dolby OnePlus Imports
+system_ext/etc/permissions/privapp-com.dolby.daxappui.xml|f84f364135dda6fa68beb4039fcdf16e
+system_ext/etc/permissions/privapp-com.dolby.daxservice.xml|40dcac1d168acb603776cfeef44cab25
+system_ext/etc/sysconfig/config-com.dolby.daxappui.xml|fce084b5ea52db53d25a7bbf64d8c7ce
+system_ext/etc/sysconfig/config-com.dolby.daxservice.xml|cd1424d569038a393fccadb457c930c2
+system_ext/etc/sysconfig/hiddenapi-com.dolby.daxservice.xml|3d8dfe8008f667cf2b3572983c08c3af
+-system_ext/priv-app/DaxUI/DaxUI.apk|feae263be94cabae10ade62f50fb7051
+-system_ext/priv-app/daxService/daxService.apk|2e2c5f6939d7545c7f59fa2b15deb727
+
+# Dolby MediaCodecs
+vendor/lib/libstagefright_soft_ac4dec.so
+vendor/lib/libstagefright_soft_ddpdec.so
+vendor/lib/libstagefright_soft_qtiflacdec.so
+vendor/lib64/libstagefright_soft_ac4dec.so
+vendor/lib64/libstagefright_soft_ddpdec.so
 
 # DPM - from LA.UM.9.12.r1-14100.02-SMxx50.QSSI12.0
 framework/tcmclient.jar|8483036d9354e88f8875d5eb2618165855438b09
