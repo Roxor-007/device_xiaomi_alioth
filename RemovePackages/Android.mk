@@ -18,6 +18,7 @@ LOCAL_OVERRIDES_PACKAGES := \
     ScribePrebuilt \
     Showcase \
     Snap \
+    MusicFX \
     SprintDM \
     SprintHM \
     VZWAPNLib \
