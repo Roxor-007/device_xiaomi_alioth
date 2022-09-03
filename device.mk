@@ -452,6 +452,10 @@ PRODUCT_PACKAGES += \
     fstab.qcom_ramdisk \
     ueventd.qcom.rc
 
+# Shims
+PRODUCT_PACKAGES += \
+    lib-watermarkshim
+
 # Storage
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.fuse.passthrough.enable=true
