@@ -40,3 +40,5 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 CORVUS_MAINTAINER= Roxor-007
 USE_PROTON=true
+
+BUILD_FINGERPRINT := POCO/alioth_global/alioth:12/SKQ1.211006.001/V13.0.3.0.SKHMIXM:user/release-keys
