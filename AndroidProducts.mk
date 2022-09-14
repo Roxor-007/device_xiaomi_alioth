@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/corvus_alioth.mk
+    $(LOCAL_DIR)/dot_alioth.mk
