@@ -137,7 +137,6 @@ PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.3-impl
 
 PRODUCT_PACKAGES += \
-    audio.a2dp.default \
     audio.bluetooth.default \
     audio.primary.kona \
     audio.r_submix.default \
@@ -204,8 +203,6 @@ PRODUCT_PACKAGES += \
     libbthost_if \
     libbthost_if.vendor \
     libldacBT_bco.vendor
-
-$(call inherit-product, vendor/qcom/opensource/commonsys-intf/bluetooth/bt-system-opensource-product.mk)
 
 # Camera
 PRODUCT_PACKAGES += \
@@ -475,11 +472,7 @@ PRODUCT_COPY_FILES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH) \
-    vendor/qcom/opensource/commonsys/packages/apps/Bluetooth \
-    vendor/qcom/opensource/commonsys/system/bt \
-    vendor/qcom/opensource/commonsys/system/bt/conf \
-    vendor/qcom/opensource/commonsys/system/bt/main
+    $(LOCAL_PATH)
 
 # Telephony
 PRODUCT_PACKAGES += \
