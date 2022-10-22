@@ -162,7 +162,7 @@ persist.vendor.btstack.enable.twsplussho=true
 persist.vendor.qcom.bluetooth.twsp_state.enabled=true
 
 # Camera
-vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.aperture.dev
 persist.vendor.camera.logInfoMask=false
 persist.vendor.camera.perflock.enable=0
 
