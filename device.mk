@@ -58,3 +58,6 @@ PRODUCT_PACKAGES += \
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/alioth/alioth-vendor.mk)
+
+# Gcam
+$(call inherit-product-if-exists, vendor/GcamBSG/GcamBSG-vendor.mk)
