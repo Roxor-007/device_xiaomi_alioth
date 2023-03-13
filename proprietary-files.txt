@@ -1,4 +1,4 @@
-# Unpinned blobs from alioth_global-user 13 RKQ1.211001.001 V14.0.4.0.TKHMIXM release-keys
+# Unpinned blobs from alioth_eea-user 13 RKQ1.211001.001 V14.0.7.0.TKHEUXM release-keys
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb:vendor/etc/acdbdata/Tutu/Tutu_Bluetooth_cal.acdb
@@ -413,6 +413,10 @@ vendor/lib64/soundfx/libswgamedap.so
 vendor/lib64/soundfx/libswvqe.so
 
 # Dolby MediaCodecs
+system/lib/libdolbyottcontrol.so
+system/lib/libdovi_omx.so
+system/lib64/libdolbyottcontrol.so
+system/lib64/libdovi_omx.so
 vendor/lib/libstagefright_soft_ac4dec.so
 vendor/lib/libstagefright_soft_ddpdec.so
 vendor/lib/libstagefrightdolby.so
@@ -561,6 +565,16 @@ vendor/etc/thermal-region-map.conf
 vendor/etc/thermal-tgame.conf
 vendor/etc/thermal-video.conf
 vendor/etc/thermald-devices.conf
+
+# Vibator Calibration
+vendor/bin/vib_cal
+vendor/firmware/0_click_P_RTP.bin
+vendor/firmware/1_doubelClick_P_RTP.bin
+vendor/firmware/2_tick_P_RTP.bin
+vendor/firmware/3_thud_P_RTP.bin
+vendor/firmware/4_pop_P_RTP.bin
+vendor/firmware/5_heavyClick_P_RTP.bin
+vendor/lib64/libaachaptics.so
 
 # Vibrator firmware
 vendor/firmware/aw8697_haptic.bin
