@@ -14,7 +14,7 @@ static const variant_info_t aliothin_info = {
     .sku_value = "",
 
     .mod_device = "alioth_in_global",
-    .brand = "Xiaomi",
+    .brand = "Mi",
     .device = "aliothin",
     .marketname = "Mi 11X",
     .model = "M2012K11AI",
@@ -44,7 +44,7 @@ static const variant_info_t alioth_info = {
     .mod_device = "alioth_in_global",
     .brand = "Redmi",
     .device = "alioth",
-    .marketname = "K40",
+    .marketname = "Redmi K40",
     .model = "M2012K11AC",
     .build_fingerprint = "Redmi/alioth/alioth:13/TKQ1.220829.002/V14.0.4.0.TKHCNXM:user/release-keys",
 
