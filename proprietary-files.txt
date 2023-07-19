@@ -122,7 +122,7 @@ vendor/lib64/camera/fdconfigpreview.bin
 vendor/lib64/camera/fdconfigpreviewlite.bin
 vendor/lib64/camera/fdconfigvideo.bin
 vendor/lib64/camera/fdconfigvideolite.bin
-vendor/lib64/hw/camera.qcom.so|08dd09646fc78cfc574c11aba7f1f722c28e15b6
+vendor/lib64/hw/camera.qcom.so|48fcd093d9de87ba7338895b63007cf4dd499222
 vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/com.qti.feature2.anchorsync.so
 vendor/lib64/com.qti.feature2.demux.so
@@ -224,7 +224,7 @@ vendor/lib64/libvideofilter_only.so
 vendor/lib64/libvidhance.so
 vendor/lib64/libxmi_hdr_checker.so
 vendor/lib64/libxmi_high_dynamic_range.so
-vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so|004d73d02b4967170ecc3f6e5450b0f56eaf4c5a|040754908683f59ee1b5b7f962f659fbed3a515a
+vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so|8629ddc55445116852140a88c6d272683ac6bd49
 
 # Camera-arcsoft
 vendor/lib64/libarcsoft_beautyshot.so
@@ -279,7 +279,7 @@ vendor/lib64/camera/components/com.mi.node.rearvideo.so
 vendor/lib64/camera/components/com.mi.node.skinbeautifier.so
 vendor/lib64/camera/components/com.mi.node.superlowlightraw.so
 vendor/lib64/camera/components/com.mi.node.videobokeh.so
-vendor/lib64/camera/components/com.mi.node.watermark.so
+vendor/lib64/camera/components/com.mi.node.watermark.so|98c4ad92a3ceef803a247226e4d2ed97c3bb0dfe|8c10d25f6f18a3d6f5b9a15df9465f45d9d60adf
 vendor/lib64/camera/components/com.qti.camx.chiiqutils.so
 vendor/lib64/camera/components/com.qti.eisv2.so
 vendor/lib64/camera/components/com.qti.eisv3.so
